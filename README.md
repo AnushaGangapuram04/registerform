@@ -50,19 +50,17 @@ git clone <repository_url>
 cd registration-form
 
  Install Dependencies
-
  npm install
+
  
 Configure Environment Variables
-
 MONGO_URI=mongodb://localhost:27017/registration_form
 PORT=3000
 
-Start MongoDB
 
+Start MongoDB
 Ensure that MongoDB is running on your local machine or remote server.
 
 Start the Server
-
 node server.js
 
